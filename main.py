@@ -83,7 +83,7 @@ class Quote(Document):
 
 
 def load_data_to_database():
-    mongo_uri = "mongodb+srv://artur:7464383521@atlascluster.mzincq8.mongodb.net/"
+    mongo_uri = "mongodb+srv://artur:***********@atlascluster.mzincq8.mongodb.net/"
     database_name = "web9"
 
     connect(host=mongo_uri, db=database_name)
